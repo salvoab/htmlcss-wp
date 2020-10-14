@@ -118,6 +118,12 @@ h2{
   font-size: 1.1em;
 }
 
+#intestazione-temi::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 aside.temi ul > li{
   list-style: none;
   color: green;
