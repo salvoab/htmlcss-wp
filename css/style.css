@@ -163,9 +163,28 @@ aside.contenitore-widgets{
 
 footer{
   width: 1000px;
-  height: 150px;
   text-align: center;
-  margin-bottom: 20px;
   background-color: lightgrey;
   color: grey;
+}
+
+.foot-icon-container{
+  width: 33.33%;
+  text-align: center;
+  padding: 3% 0;
+}
+
+#footer-bottom::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.foot-icon{
+  font-size: 4em;
+}
+
+.foot-icon:hover{
+  cursor: pointer;
+  color: black;
 }
