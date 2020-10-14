@@ -61,9 +61,6 @@ h1{
   color: white;
 }
 
-h2{
-  font-size: 1.2em;
-}
 
 nav{
   width: 1000px;
@@ -103,17 +100,45 @@ nav > ul > li > a:hover{
 
 aside.temi{
   width: 20%;
-  height: 350px;
-  background: blue;
+  background: white;
   padding: 20px;
+}
+
+.rss{
+  color: orange;
+  cursor: pointer;
+  padding-right: 8px;
+}
+
+h2{
+  font-size: 1.1em;
+}
+
+aside.temi ul > li{
+  list-style: none;
+  color: green;
+  padding: 8px;
+}
+
+aside.temi ul > li:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 main{
   width: 50%;
-  height: 250px;
-  background: purple;
+  background: white;
   padding: 20px;
   margin: 0 5%;
+}
+
+main h2{
+  text-shadow: 2px 2px 2px grey;
+  padding-bottom: 10px;
+}
+
+p{
+  line-height: 2em;
 }
 
 aside.contenitore-widgets{
