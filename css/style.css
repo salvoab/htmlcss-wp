@@ -93,9 +93,9 @@ nav > ul > li > a{
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-weight: 800;
   display: inline-block;
   height: 100%;
+  font-size: 14px;
 }
 
 nav > ul > li > a:hover{
