@@ -17,6 +17,9 @@
   margin-top: 30px;
 }
 
+.br-10{
+  border-radius: 10px;
+}
 /*Fine Utility*/
 
 body{
@@ -39,7 +42,27 @@ header{
   height: 300px;
   position: relative;
   text-align: center;
-  background: red;
+}
+
+#intestazione{
+  width: 1000px;
+  height: 260px;
+  border: 10px solid white;
+  background-image: url("../img/natural-default-header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo{
+  width: 40%;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  font-size: 1.2em;
 }
 
 nav{
@@ -48,7 +71,34 @@ nav{
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #696969;
+  background: #504741;
+}
+
+
+nav > ul > li{
+  /*0 pixel sopra e sotto, 10px sinistra e destra*/
+  padding: 0 10px;
+  line-height: 40px;
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+}
+
+nav > ul > li:hover{
+  background-color: darkgrey;
+}
+
+nav > ul > li > a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  display: inline-block;
+  height: 100%;
+}
+
+nav > ul > li > a:hover{
+  text-decoration: underline;
 }
 
 aside.temi{
